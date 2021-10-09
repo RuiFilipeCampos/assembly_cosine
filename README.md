@@ -12,5 +12,11 @@ gunna need some yt vid for this one
 https://www.amd.com/system/files/TechDocs/24592.pdf
 
 
+## calling convention for double func(double) | x64 WIN
+
+- arg register -> xmm0
+- return register -> xmm0
+
+
 
 
