@@ -9,6 +9,8 @@ gunna need some yt vid for this one
 
 ---> he's using an emulator || emu8086: http://goo.gl/AXgw2u
 
+https://www.amd.com/system/files/TechDocs/24592.pdf
+
 
 
 
