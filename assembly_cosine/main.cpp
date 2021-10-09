@@ -2,9 +2,9 @@
 
 using namespace std;
 
-extern "C" int cosine();
+extern "C" double cosine(double);
 
 int main() {
-	cout << "The result is " << cosine() << endl; 
+	cout << "The result is " << cosine(2.) << endl;
 	return 0; 
 };
