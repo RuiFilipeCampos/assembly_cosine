@@ -20,5 +20,7 @@ gunna need some yt vid for this one
 
 ### Concepts
 
-#### Assembler 
+#### Assembler
+
+> An assembler program creates object code by translating combinations of mnemonics and syntax for operations and addressing modes into their numerical equivalents. 
 
