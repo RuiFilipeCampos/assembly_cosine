@@ -8,3 +8,7 @@ gunna need some yt vid for this one
 - https://www.youtube.com/watch?v=zEuvNYe7WG0
 
 ---> he's using an emulator || emu8086: http://goo.gl/AXgw2u
+
+- https://en.wikipedia.org/wiki/Assembly_language
+
+> Because assembly depends on the machine code instructions, every assembly language is designed for exactly one specific computer architecture. 
