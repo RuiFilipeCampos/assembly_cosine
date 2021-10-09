@@ -1,7 +1,7 @@
 Part of my most recent challange: learn three languages at the same time c:
 
-
-# UNDERSTANDING ASSEMBLY
+  
+# UNDERSTANDING ASSEMBLY -> [taking notes in this repo wiki](https://github.com/RuiFilipeCampos/assembly_cosine/wiki)
 
 gunna need some yt vid for this one
 
