@@ -11,7 +11,14 @@ gunna need some yt vid for this one
 
 ## Following: https://en.wikipedia.org/wiki/Assembly_language
 
+### Definition
 
 > In computer programming, **assembly language** (or assembler language), sometimes abbreviated asm, *is any low-level programming language in which there is a very strong correspondence between the instructions in the language and the architecture's machine code instructions*.
-
+> 
 > Because assembly depends on the machine code instructions, every assembly language is designed for exactly one specific computer architecture. 
+
+
+### Concepts
+
+### Assembler 
+
