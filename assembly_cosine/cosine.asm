@@ -7,7 +7,10 @@ coef4 QWORD 0.00002480158
 coef5 QWORD 0
 coef6 QWORD 0
 coef7 QWORD 0
-coef QWORD 0 
+coef QWORD 0
+
+arr .BLOCK 32
+
 
 .code
 mul_coef proc
@@ -18,6 +21,8 @@ mul_coef proc
 	addsd xmm0, xmm3  ; xmm0 += tmp
 	ret
 mul_coef endp
+
+
 
 
 cosine proc 
@@ -35,18 +40,18 @@ cosine proc
 
 	movq xmm0, coef0
 	
-	movq xmm4, coef1
-	call mul_coef
-	
-	movq xmm4, coef2
-	call mul_coef
+	mov ecx, 0
+	loop_start:
+		cmp ecx, 3
+		je loop_end
 
-	movq xmm4, coef3
-	call mul_coef
+		movq xmm4, coef1
+		call mul_coef
 
-	movq xmm4, coef4
-	call mul_coef
+		inc ecx
+		jmp loop_start
 
-	ret
+	loop_end:
+		ret
 cosine endp
 end
